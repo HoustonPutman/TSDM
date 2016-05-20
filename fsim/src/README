@@ -1,0 +1,9 @@
+To compile:
+
+cd src
+g++ -o cache_sim *.cpp
+
+
+To run:
+
+./src/cache_sim traces/<trace file> 2048 16 <replacement policy>
